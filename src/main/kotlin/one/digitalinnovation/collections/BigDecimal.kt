@@ -8,3 +8,4 @@ fun Array<BigDecimal>.somatoria() = this.reduce {acc, valor -> acc + valor}
         if (this.isEmpty()) BigDecimal.ZERO
         else this.somatoria() / this.size.toBigDecimal()
 
+
